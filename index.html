@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prerna Sharma | Professional Certifications</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,"Segoe UI",sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#0d1117;
+color:#e6edf3;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#0d1117;
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#30363d;
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#484f58;
+
+}
+
+/* Navbar */
+
+nav{
+
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+
+background:rgba(13,17,23,.85);
+
+backdrop-filter:blur(12px);
+
+border-bottom:1px solid #21262d;
+
+z-index:100;
+
+}
+
+.logo{
+
+font-size:28px;
+font-weight:700;
+letter-spacing:.5px;
+
+}
+
+.logo span{
+
+color:#58a6ff;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#c9d1d9;
+margin-left:25px;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#58a6ff;
+
+}
+
+/* Hero */
+
+.hero{
+
+padding:90px 8%;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+font-weight:700;
+
+margin-bottom:18px;
+
+}
+
+.hero h1 span{
+
+color:#58a6ff;
+
+}
+
+.hero p{
+
+max-width:850px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#8b949e;
+
+}
+
+/* Stats */
+
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:22px;
+
+padding:0 8% 70px;
+
+}
+
+.stat{
+
+background:#161b22;
+
+border:1px solid #30363d;
+
+padding:28px;
+
+border-radius:18px;
+
+transition:.35s;
+
+}
+
+.stat:hover{
+
+transform:translateY(-6px);
+
+border-color:#58a6ff;
+
+}
+
+.stat h2{
+
+font-size:34px;
+
+margin-bottom:10px;
+
+color:#58a6ff;
+
+}
+
+.stat p{
+
+color:#8b949e;
+
+}
+
+/* Search */
+
+.search{
+
+padding:0 8% 60px;
+
+}
+
+.search input{
+
+width:100%;
+
+padding:18px 22px;
+
+background:#161b22;
+
+border:1px solid #30363d;
+
+outline:none;
+
+border-radius:12px;
+
+font-size:17px;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.search input:focus{
+
+border-color:#58a6ff;
+
+}
+
+/* Section */
+
+.section-title{
+
+padding:0 8%;
+
+font-size:36px;
+
+margin-bottom:35px;
+
+}
+
+.section-title span{
+
+color:#58a6ff;
+
+}
+
+/* Cards */
+
+.grid{
+
+padding:0 8% 80px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:28px;
+
+}
+
+.card{
+
+background:#161b22;
+
+border:1px solid #30363d;
+
+border-radius:20px;
+
+padding:30px;
+
+transition:.35s;
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+border-color:#58a6ff;
+
+box-shadow:0 10px 35px rgba(0,0,0,.45);
+
+}
+
+.badge{
+
+display:inline-block;
+
+background:#238636;
+
+padding:6px 14px;
+
+border-radius:30px;
+
+font-size:13px;
+
+margin-bottom:18px;
+
+width:max-content;
+
+}
+
+.card h3{
+
+font-size:27px;
+
+margin-bottom:12px;
+
+}
+
+.provider{
+
+color:#58a6ff;
+
+margin-bottom:18px;
+
+font-weight:600;
+
+}
+
+.card p{
+
+line-height:1.8;
+
+color:#8b949e;
+
+margin-bottom:25px;
+
+flex:1;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:14px 22px;
+
+background:#238636;
+
+text-decoration:none;
+
+color:white;
+
+border-radius:10px;
+
+font-weight:600;
+
+transition:.3s;
+
+text-align:center;
+
+}
+
+.button:hover{
+
+background:#2ea043;
+
+transform:scale(1.02);
+
+}
+/* Timeline */
+
+.timeline{
+
+padding:20px 8% 90px;
+
+}
+
+.timeline-container{
+
+position:relative;
+
+margin-top:40px;
+
+}
+
+.timeline-container::before{
+
+content:"";
+
+position:absolute;
+
+left:18px;
+
+top:0;
+
+width:3px;
+
+height:100%;
+
+background:#30363d;
+
+}
+
+.timeline-item{
+
+position:relative;
+
+padding-left:65px;
+
+margin-bottom:45px;
+
+}
+
+.timeline-item::before{
+
+content:"";
+
+position:absolute;
+
+left:8px;
+
+top:6px;
+
+width:22px;
+
+height:22px;
+
+border-radius:50%;
+
+background:#58a6ff;
+
+border:4px solid #0d1117;
+
+}
+
+.timeline-item h3{
+
+font-size:22px;
+
+margin-bottom:10px;
+
+}
+
+.timeline-item p{
+
+color:#8b949e;
+
+line-height:1.8;
+
+}
+
+/* Footer */
+
+footer{
+
+margin-top:80px;
+
+padding:45px;
+
+text-align:center;
+
+border-top:1px solid #21262d;
+
+color:#8b949e;
+
+font-size:15px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.section-title{
+
+font-size:30px;
+
+}
+
+.card{
+
+padding:24px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+Prerna<span>.</span>
+</div>
+
+<div>
+
+<a href="#certificates">Certificates</a>
+
+<a href="#roadmap">Roadmap</a>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>Professional <span>Certificates</span></h1>
+
+<p>
+
+A curated collection of certifications, internship credentials and
+academic achievements showcasing continuous learning in
+Software Engineering, Full Stack Development, Java and Python.
+
+</p>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+
+<h2>6+</h2>
+
+<p>Professional Credentials</p>
+
+</div>
+
+<div class="stat">
+
+<h2>2025-26</h2>
+
+<p>Latest Learning Journey</p>
+
+</div>
+
+<div class="stat">
+
+<h2>Java</h2>
+
+<p>Primary Development Stack</p>
+
+</div>
+
+<div class="stat">
+
+<h2>100%</h2>
+
+<p>Verified Certificates</p>
+
+</div>
+
+</section>
+
+<section class="search">
+
+<input
+
+type="text"
+
+id="search"
+
+placeholder="Search certificates..."
+
+onkeyup="searchCards()"
+
+>
+
+</section>
+
+<h2 class="section-title" id="certificates">
+
+Certificate <span>Gallery</span>
+
+</h2>
+
+<section class="grid" id="cards">
+
+<div class="card">
+
+<div class="badge">
+
+Udemy
+
+</div>
+
+<h3>
+
+Java Programming Mastery
+
+</h3>
+
+<div class="provider">
+
+Complete Java Programming Bootcamp
+
+</div>
+
+<p>
+
+Core Java, OOP, Exception Handling,
+Collections Framework and Java Programming fundamentals.
+
+</p>
+
+<a
+
+class="button"
+
+target="_blank"
+
+href="java-programming.pdf">
+
+View Certificate
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="badge">
+
+AICTE EduSkills
+
+</div>
+
+<h3>
+
+Java Full Stack Internship
+
+</h3>
+
+<div class="provider">
+
+10 Week Virtual Internship
+
+</div>
+
+<p>
+
+Completed Java Full Stack Internship with practical exposure
+to backend development, Java fundamentals,
+Git and MySQL.
+
+</p>
+
+<a
+
+class="button"
+
+target="_blank"
+
+href="java-full-stack-internship.pdf">
+
+View Certificate
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="badge">
+
+Udemy
+
+</div>
+
+<h3>
+
+Full Stack Development
+
+</h3>
+
+<div class="provider">
+
+HTML • CSS • JavaScript
+
+</div>
+
+<p>
+
+Completed Full Stack Programming course
+covering frontend development,
+responsive design and JavaScript fundamentals.
+
+</p>
+
+<a
+
+class="button"
+
+target="_blank"
+
+href="full-stack-programming.pdf">
+
+View Certificate
+
+</a>
+
+</div>
+<div class="card">
+
+<div class="badge">
+
+IBM
+
+</div>
+
+<h3>
+
+Python 101 for Data Science
+
+</h3>
+
+<div class="provider">
+
+IBM Cognitive Class
+
+</div>
+
+<p>
+
+Successfully completed IBM's introductory Python course covering
+Python fundamentals, data structures and basic programming concepts
+for data science.
+
+</p>
+
+<a
+class="button"
+target="_blank"
+href="ibm-python-101.pdf">
+
+View Certificate
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="badge">
+
+Udemy
+
+</div>
+
+<h3>
+
+NumPy Programming
+
+</h3>
+
+<div class="provider">
+
+NumPy Programming Mastery
+
+</div>
+
+<p>
+
+Completed NumPy programming course focused on arrays,
+vectorized operations and numerical computing using Python.
+
+</p>
+
+<a
+class="button"
+target="_blank"
+href="numpy-programming.pdf">
+
+View Certificate
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="badge">
+
+Research
+
+</div>
+
+<h3>
+
+Metaverse & Virtual Reality
+
+</h3>
+
+<div class="provider">
+
+International Conference Presentation
+
+</div>
+
+<p>
+
+Presented the research paper titled
+<strong>Metaverse and Virtual Reality</strong>
+at the 4th International Conference on Computational Techniques:
+Recent Trends & Issues (ICCT-2025).
+
+</p>
+
+<a
+class="button"
+target="_blank"
+href="metaverse-research-paper.jpg">
+
+View Certificate
+
+</a>
+
+</div>
+
+</section>
+
+<h2 class="section-title" id="roadmap">
+
+Learning <span>Roadmap</span>
+
+</h2>
+
+<section class="timeline">
+
+<div class="timeline-container">
+
+<div class="timeline-item">
+
+<h3>
+
+Java Programming
+
+</h3>
+
+<p>
+
+Built strong foundations in Core Java,
+Object-Oriented Programming and problem solving.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>
+
+Full Stack Development
+
+</h3>
+
+<p>
+
+Expanded into HTML, CSS, JavaScript,
+Node.js, Express.js, REST APIs,
+Git and MySQL.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>
+
+Python & NumPy
+
+</h3>
+
+<p>
+
+Learned Python programming,
+NumPy fundamentals and
+basic Data Science concepts.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>
+
+Professional Internship
+
+</h3>
+
+<p>
+
+Successfully completed AICTE EduSkills
+Java Full Stack Internship,
+strengthening backend development fundamentals.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>
+
+Research Contribution
+
+</h3>
+
+<p>
+
+Presented a research paper on
+Metaverse & Virtual Reality
+at an International Conference.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+Designed & Maintained by
+<strong>Prerna Sharma</strong>
+
+</p>
+
+<br>
+
+<p>
+
+Software Engineer • Full Stack Developer • Backend Developer
+
+</p>
+
+</footer>
+
+<script>
+
+function searchCards(){
+
+let input=document.getElementById("search").value.toLowerCase();
+
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(function(card){
+
+let text=card.innerText.toLowerCase();
+
+if(text.includes(input)){
+
+card.style.display="flex";
+
+}
+
+else{
+
+card.style.display="none";
+
+}
+
+});
+
+}
+
+</script>
+
+</body>
+
+</html>
