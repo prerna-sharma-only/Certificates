@@ -12,6 +12,7 @@ Welcome! This repository contains my verified professional certifications comple
 | Java Full Stack Internship | AICTE EduSkills | [📄 View](Java-Full-Stack-Internship.pdf) |
 | Full Stack Programming | Udemy | [📄 View](Full%20Stack%20Programming%20Certificate.pdf) |
 | NumPy Programming | Udemy | [📄 View](NumPy%20Programming%20Certificate%20-%20Prerna%20Sharma.pdf) |
+| IBM Python 101 for Data Science | Udemy | [📄 View](IBM%20PY0101EN%20Certificate%20_%20Cognitive%20Class.pdf) |
 
 ---
 
