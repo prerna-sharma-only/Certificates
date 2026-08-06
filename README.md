@@ -8,11 +8,12 @@ Welcome! This repository contains my verified professional certifications comple
 
 | Certificate | Provider | View |
 |-------------|----------|------|
-| Java Programming Mastery – Developers Bootcamp | Udemy | [📄 View](Java%20Programming%20Certificate.pdf) |
-| Java Full Stack Internship | AICTE EduSkills | [📄 View](Java-Full-Stack-Internship.pdf) |
-| Full Stack Programming | Udemy | [📄 View](Full%20Stack%20Programming%20Certificate.pdf) |
-| NumPy Programming | Udemy | [📄 View](NumPy%20Programming%20Certificate%20-%20Prerna%20Sharma.pdf) |
-| IBM Python 101 for Data Science | Udemy | [📄 View](IBM%20PY0101EN%20Certificate%20_%20Cognitive%20Class.pdf) |
+| Java Programming Mastery – Developers Bootcamp | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/java-programming.pdf) |
+| Java Full Stack Internship | AICTE EduSkills | [📄 View](https://prerna-sharma-only.github.io/Certificates/java-full-stack-internship.pdf) |
+| Full Stack Programming | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/full-stack-programming.pdf) |
+| NumPy Programming | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/numpy-programming.pdf) |
+| IBM Python 101 for Data Science | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/ibm-python-101.pdf) |
+| "MetaVerse And Virtual Reality" Research Paper | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/metaverse-research-paper.jpg) |
 
 ---
 
