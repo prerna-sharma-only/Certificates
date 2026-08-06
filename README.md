@@ -13,7 +13,7 @@ Welcome! This repository contains my verified professional certifications comple
 | Full Stack Programming | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/full-stack-programming.pdf) |
 | NumPy Programming | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/numpy-programming.pdf) |
 | IBM Python 101 for Data Science | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/ibm-python-101.pdf) |
-| "MetaVerse And Virtual Reality" Research Paper | Udemy | [📄 View](https://prerna-sharma-only.github.io/Certificates/metaverse-research-paper.jpg) |
+| "MetaVerse And Virtual Reality" Research Paper | College | [📄 View](https://prerna-sharma-only.github.io/Certificates/metaverse-research-paper.jpg) |
 
 ---
 
